@@ -1,0 +1,78 @@
+body  {
+    margin: 0;
+    background-image: url("images/pinkclouds.jpeg");
+    font-family: 'Yaldevi', sans-serif;
+}
+
+header{ 
+    background: rgb(143, 70, 182);
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    padding: 1rem;  
+}
+
+header h1{
+    margin-top: 0;
+    font-weight: 800;
+}
+
+nav a{
+    margin: 1rem;
+    color:rgb(50, 62, 168);
+    font-weight: 500;
+    line-height: 2rem;
+}
+nav a:hover{
+    color: rgb(238, 115, 115);
+}
+
+main{
+    max-width: 50rem;
+    margin: 0 auto;
+    padding: 0.5rem;
+
+}
+
+section h3 {
+    background: rgb(44, 89, 119);
+    color: white; 
+    margin: 0; 
+    padding: 1rem;
+}
+
+section p{
+    background:rgba(130, 194, 231, 0.829);
+    padding: 1rem;
+    color:rgb(143, 70, 182)
+}
+.box{
+    background:rgba(132, 213, 224, 0.829);
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    top: 90px;
+    right: 0px;
+}
+
+.child{
+    background:rgba(223, 58, 168, 0.829);
+    position: absolute;
+    text-align: center;
+    width: 130px;
+    height: 110px;
+    bottom: 80px;
+    right: 20px;
+}
+
+img{
+    margin: 0 auto;
+    display: block; 
+    max-width: 100%;
+}
+
+footer {
+    background: rgb(143, 70, 182);
+    color:white;
+    text-align: center;
+    padding: 2rem;
+}
