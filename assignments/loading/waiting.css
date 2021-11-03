@@ -1,0 +1,36 @@
+body{
+  background: rgb(231, 212, 186);
+}
+
+.wrapper{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transition: translate(-50%,-50%);
+}
+
+.circle{
+  display: inline-block; 
+  margin: 50px auto;
+  width: 30px; 
+  height: 30px;
+  justify-content: center;
+  border: 8px solid rgb(255, 0, 76);
+  border-radius: 50%; 
+  border-top-color: rgb(50, 50, 255);
+  border-bottom-color: blue;
+  transform: rotate(-45deg);
+  animation-name: beat;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes beat {
+    0% {
+      transform: scale(1) rotate(-45deg);
+    }
+    50% {
+      transform: scale(0.6) rotate(-45deg);
+    } 
+}
