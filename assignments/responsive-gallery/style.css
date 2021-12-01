@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background:white;
+}
+
+.logo a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(26, 25, 25);
+    letter-spacing: 5px;
+}
+
+li, a{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color:rgb(65, 57, 57);
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.navlinks{
+ list-style: none;   
+}
+
+.navlinks li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navlinks li a:hover{
+    color: black;
+}
+
+.image-card {
+    position:relative;
+    width: auto;
+    height: auto;
+    display: block;
+    color: black;
+  }
+  
+.image-card:hover .image-title {
+    opacity: 1;
+  }
+  
+.image-title {
+    position: absolute;
+    background: #fffd;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0; 
+    display: grid;
+    place-items: center;
+    transition: all .25s;
+  }
+  
+  img {
+    display: block;
+  }
+
+  .gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: .5em;
+  }
+  
+  .gallery img {
+    width: 100%;
+  }
+  
+  @media (max-width: 1050px) {
+    
+    .gallery {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .gallery {
+      grid-template-columns: 1fr;
+    }
+  }
