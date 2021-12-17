@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family:'PT Sans Narrow', sans-serif; 
     background: rgb(218, 175, 141);
-    color: white
+    color: white;
 }
 
 header{ 
@@ -36,7 +36,7 @@ main{
 
 section{
     margin: 2rem 0;
-    border-left: .5rem solid rgb(255, 0, 179);
+    border-left: .5rem solid rgb(0, 17, 255);
 }
 
 section h3 {
